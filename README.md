@@ -1,0 +1,2 @@
+# tims-mining
+ Timadix Mining

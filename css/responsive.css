@@ -1,0 +1,21 @@
+@media (max-width:480px) {
+    .banner-one {
+        padding-top: 80px;
+    }
+    .banner-two {
+        padding-top: 80px;
+    }
+    .banner-three {
+        padding-top: 80px;
+    }
+
+    .video-area .play {
+        top: 30%;
+        left: 40%;
+      }
+    
+      .video-area .play span {
+        font-size: 30px;
+        padding: 25px;
+      }
+}

@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&family=Barlow:wght@400;500;600&family=Inter:wght@400;500;600&family=Nunito:wght@400;500;600&family=Quicksand:wght@400;500;600&family=Roboto+Condensed:wght@400;700&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+body p {
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+.site-header {
+    background: #08209a;
+}
+
+.header-links a {
+   color: white;
+   font-size: 14px;
+   text-decoration: none;
+   font-family: 'Inter', sans-serif;
+}
+
+.social-links a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    font-weight: 500;
+    background: white;
+    border-bottom: 2px solid #ffa401;
+}
+
+.navbar-nav .nav-item .nav-link {
+   text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #08209a !important;
+ }
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #08209a !important;
+}
+
+.toggle-btn {
+  color: #08209a;
+  border: none;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.toggle-btn:focus {
+  box-shadow: none;
+}
+
+.home-banner {
+    position: relative;
+}
+
+.home-banner .carousel-arrow {
+    border: 0;
+    background: transparent;
+    display: none !important;
+    height: 50px;
+    width: 45px;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    transform: translate(0, -50%);
+    outline: 0;
+    cursor: pointer;
+  }
+
+  .home-banner:hover .carousel-arrow {
+     display: block !important;
+  }
+  
+  /* Modificação só pra a seta do próximo carousel ficar na direita */
+  
+  .home-banner .carousel-arrow.next {
+    right: 0;
+  }
+
+.slider-dots {
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider-dots li {
+    display: inline-block;
+    margin: 0 8px;
+  }
+  
+  .slider-dots li > button {
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    background: transparent;
+    color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .slider-dots li.slick-active > button {
+    background: white;
+  }
+
+  .banner-one {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url(../img/tim-mine-banner1.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 550px;
+    padding-top: 120px;
+  }
+
+  .banner-two {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url(../img/mine-bg-2.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 550px;
+    padding-top: 120px;
+  }
+
+  .banner-three {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url(../img/timadix-banner.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 550px;
+    padding-top: 120px;
+  }
+
+  .banner-textarea h1 {
+    font-size: 50px;
+    color: #ffa401;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+  }
+
+  .banner-textarea p {
+    line-height: 1.8em;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+  }
+
+  .btn-banner {
+    color: white;
+    border: 2px solid white;
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+
+  .btn-banner:hover {
+    color: white;
+    border: 2px solid white;
+  }
+
+  .text-blue {
+    color: #08209a;
+  }
+
+  .text-yellow {
+    color: #ffa401;
+  }
+
+  .text-inter {
+    font-family: 'Inter', 'sans-serif';
+  }
+
+  .text-barlow {
+    font-family: 'Barlow', 'sans-serif';
+  }
+
+  .text-roboto {
+    font-family: 'Roboto Condensed', 'sans-serif';
+  }
+
+  .text-nunito {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .text-quicksand {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .welcome-area h1 {
+    font-weight: 600;
+  }
+
+  .welcome-area p {
+    line-height: 1.8em;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .img-responsive {
+    width: 100%;
+  }
+
+  .btn-learn {
+    color: white;
+    background: #08209a;
+    border-radius: 0px;
+    font-size: 20px;
+    border: 1px solid #08209a;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .btn-learn:hover {
+    color: #08209a;
+    background: transparent;
+    border: 1px solid #08209a;
+  }
+
+  .mining-activities p {
+    font-size: 18px;
+    line-height: 1.8em;
+  }
+
+  .video-area {
+    position: relative;
+  }
+
+  .video-area .play {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+  }
+
+  .video-area .play span {
+    font-size: 40px;
+    color: white;
+    background: #08209a;
+    padding: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .bg-blue {
+    background: #213bc0;
+  }
+
+  .statistics {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/mine-statistics.jpg) no-repeat center fixed;
+    background-size: cover;
+    min-height: 300px;
+  }
+
+  .white-bot {
+    width: 50px;
+    height: 3px;
+    background: white;
+  }
+
+  .border-custom {
+    border-right: 2px solid white;
+  }
+
+  .stats-area .counter {
+    font-size: 40px;
+  }
+
+  .img-logo {
+    width: 150px;
+  }

@@ -12,7 +12,7 @@ body p {
 }
 
 .site-header {
-    background: #08209a;
+    background: #1d36b6;
 }
 
 .header-links a {
@@ -32,7 +32,7 @@ body p {
 .navbar {
     font-weight: 500;
     background: white;
-    border-bottom: 2px solid #ffa401;
+    border-bottom: 2px solid #f5b134;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -40,15 +40,15 @@ body p {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #08209a !important;
+    color: #1d36b6 !important;
  }
 
 .navbar-nav .nav-item.active .nav-link {
-    color: #08209a !important;
+    color: #1d36b6 !important;
 }
 
 .toggle-btn {
-  color: #08209a;
+  color: #1d36b6;
   border: none;
   font-size: 25px;
   padding-top: 20px;
@@ -138,7 +138,7 @@ body p {
 
   .banner-textarea h1 {
     font-size: 50px;
-    color: #ffa401;
+    color: #f5b134;
     font-weight: bold;
     font-family: 'Barlow', sans-serif;
   }
@@ -165,7 +165,7 @@ body p {
   }
 
   .text-blue {
-    color: #08209a;
+    color: #1d36b6;
   }
 
   .text-yellow {
@@ -208,18 +208,18 @@ body p {
 
   .btn-learn {
     color: white;
-    background: #08209a;
+    background: #1d36b6;
     border-radius: 0px;
     font-size: 20px;
-    border: 1px solid #08209a;
+    border: 1px solid #1d36b6;
     padding-top: 12px;
     padding-bottom: 12px;
   }
 
   .btn-learn:hover {
-    color: #08209a;
+    color: #1d36b6;
     background: transparent;
-    border: 1px solid #08209a;
+    border: 1px solid #1d36b6;
   }
 
   .mining-activities p {
@@ -240,7 +240,7 @@ body p {
   .video-area .play span {
     font-size: 40px;
     color: white;
-    background: #08209a;
+    background: #1d36b6;
     padding: 30px;
     border-radius: 50%;
     cursor: pointer;
@@ -272,4 +272,12 @@ body p {
 
   .img-logo {
     width: 150px;
+  }
+
+  /* .panel-label {
+    color: #1d36b6;
+  } */
+
+  .panel-control {
+    border-radius: 0px;
   }

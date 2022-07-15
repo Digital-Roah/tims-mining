@@ -9,6 +9,10 @@
         padding-top: 80px;
     }
 
+    .welcome-area p {
+        font-size: 17px;
+    }
+
     .video-area .play {
         top: 30%;
         left: 40%;

@@ -36,6 +36,14 @@
       .slider-item .slider-area .img-slider {
         height: 200px !important;
       }
+
+      .welcome-area h1 {
+        font-size: 35px;
+      }
+
+      .welcome-area h2 {
+        font-size: 30px;
+      }
 }
 
 @media (max-width:992px) {

@@ -22,4 +22,32 @@
         font-size: 30px;
         padding: 25px;
       }
+
+      #loader {
+        left: 55%;
+        width: 100px;
+        height: 100px;
+      }
+
+      .scroll-down-area {
+        left: 43%;
+      }
+
+      .slider-item .slider-area .img-slider {
+        height: 200px !important;
+      }
+}
+
+@media (max-width:992px) {
+  .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+ }
+
+.navbar-nav .nav-item.active .nav-link {
+    border-bottom: none;
+}
+
+.slider-item .slider-area .img-slider {
+  height: 150px;
+}
 }

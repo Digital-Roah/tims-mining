@@ -17,3 +17,13 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+if($(window).width() > 992) {
+$('.nav-drop').hover(function() {
+    $('.nav-drop .dropdown-content').slideToggle();
+ });
+} else if($(window).width() <= 992) {
+  $('.nav-drop').click(function() {
+    $('.nav-drop .dropdown-content').slideToggle();
+ });
+}

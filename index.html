@@ -21,6 +21,10 @@
   </head>
   <body>
 
+    <div class="se-pre-con">
+      <div id="loader"></div>
+    </div>
+
     <header class="site-header py-2 px-3 d-none d-lg-block">
        <div class="row"> 
          <div class="col-sm-9">
@@ -64,10 +68,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown nav-drop">
                 <a class="nav-link" href="#" id="dropdownId" data-bs-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">Services <i class="fas fa-angle-down" aria-hidden="true"></i></a>
-                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <div class="dropdown-menu dropdown-content" aria-labelledby="dropdownId">
                   <a class="dropdown-item" href="#">Exploration Services</a>
                   <a class="dropdown-item" href="#">Mineral Trading  & Beneficiation</a>
                   <a class="dropdown-item" href="#">Mineral Quality Conrol</a>
@@ -103,7 +107,29 @@
 
     <div class="home-banner">
 
-        <div>
+      <div class="banner-two">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="banner-textarea text-center">
+                        <h1 class="text-blue">Geo-Mining made Easy</h1>
+                        <p class="text-white mt-3">TIMADIX GEOMIN CONSULT NIG LTD. has over the years adapted a system that makes the mining and processing of raw materials easy.</p>
+                        <div class="mt-3">
+                            <a href="#un" class="btn btn-banner btn-lg px-5">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-down-area">
+      <div class="move-around">
+      <a href="#welcome"><span class="fas fa-angle-double-down fa-2x" aria-hidden="true"></span></a>
+    </div>
+    </div>
+
+        <!-- <div>
             <div class="banner-one">
                 <div class="container">
                     <div class="row">
@@ -155,19 +181,19 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
 
     <div class="container">
 
-       <section class="welcome-area mt-5">
+       <section class="welcome-area mt-5" id="welcome">
            <h1 class="text-center text-roboto wow pulse" data-wow-duration="1500">Welcome to Timadax Geomin Consult Nig Ltd.</h1>
 
            <div class="row mt-3">
             <div class="col-lg-6 text-lg-start text-center">
-              <h3 class="text-blue text-inter text-uppercase wow slideInLeft" data-wow-duration="1600">About Us</h3>
-              <p class="wow fadeInLeft" data-wow-duration="1700">TIMADIX GEOMIN CONSULT NIG LTD, Founded In 2017 is a geological / Mining Engineering Firm with headquarters in Jos, Plateau state, the company majors in Geological Prospecting of mineral Resources, core drilling, mineral appreciation and beneficiation, and mineral dealership with mining leases scattered accross the middle belt region of Nigeria, TGC is involved in the mining of Tin, Tantalum, Lead, zinc and Gold. There are other prospects of Lithium mining but actual mining of said mineral is yet to commence.</p>
+              <h3 class="text-blue text-barlow text-uppercase wow slideInLeft" data-wow-duration="1600"><b>About Us</b></h3>
+              <p class="wow fadeInLeftBig" data-wow-duration="1700"><b class="text-yellow-50" style="font-size: 18px;">TIMADIX GEOMIN CONSULT NIG LTD</b>, Founded In 2017 is a geological / Mining Engineering Firm with headquarters in Jos, Plateau state, the company majors in Geological Prospecting of mineral Resources, core drilling, mineral appreciation and beneficiation, and mineral dealership with mining leases scattered accross the middle belt region of Nigeria, TGC is involved in the mining of Tin, Tantalum, Lead, zinc and Gold. There are other prospects of Lithium mining but actual mining of said mineral is yet to commence.</p>
               <div class="wow bounceInLeft" data-wow-duration="1800">
               <a href="#un" class="btn btn-learn px-5" >Learn More <i class="fas fa-angle-double-right" aria-hidden="true"></i></a>
             </div>
@@ -182,10 +208,10 @@
        </section>
 
        <section class="mining-activities mt-5 text-center">
-          <h1 class="text-nunito text-blue wow bounceIn" data-wow-duration="1500"><b>Mining Activities</b></h1>
-          <p class="text-barlow wow fadeIn" data-wow-duration="1700">Timadix Geomin Consult Nig ltd, or TGC as it is commonly called, is a Geotechnical and mining consultancy firm which also practices mining and mineral separation. with the mother beneficiation plant in Jos, Plateau state, We are able to beneficiate up to 8 metallic minerals. We are dedicated to augmenting ores within the ambits of our separation equipment before exporting them or selling locally.</p>
+          <h1 class="text-bree text-blue-50 wow bounceIn" data-wow-duration="1500"><b>Mining Activities</b></h1>
+          <p class="text-manrope wow fadeInRightBig" data-wow-duration="1700">Timadix Geomin Consult Nig ltd, or TGC as it is commonly called, is a Geotechnical and mining consultancy firm which also practices mining and mineral separation. with the mother beneficiation plant in Jos, Plateau state, We are able to beneficiate up to 8 metallic minerals. We are dedicated to augmenting ores within the ambits of our separation equipment before exporting them or selling locally.</p>
 
-          <div class="video-area">
+          <div class="video-area wow flipInX" data-wow-duration="1500">
           <video src="img/tims-mine-video.mp4" class="img img-fluid" id="vid"></video>
           <div class="play">
             <span class="fas fa-play" id="playvid"></span>
@@ -238,6 +264,158 @@
     </section>
 
     <section class="mt-5">
+      <div class="container">
+        <h1 class="text-center text-blue-50 text-bree wow bounceIn" data-wow-duration="1500"><b>Meet Our Team</b></h1>
+        <p class="text-center text-nunito font-500 wow fadeIn" data-wow-duration="1600">The profiles below illustrates the board members of Timadix</p>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="card teams-card wow fadeIn" data-wow-duration="1800">
+              <img class="card-img-top" src="img/engr-tim.jpg" alt="Title">
+              <div class="card-body text-center">
+                <h4 class="card-title text-mochiy text-yellow-50">Engr. Tim Eldon</h4>
+                <p class="card-text text-manrope font-600 text-blue-50">Managing Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 mt-4">
+            <div class="card teams-card wow fadeIn" data-wow-duration="1800">
+              <img class="card-img-top othmem-img" src="img/naija-mine-1.jpg" alt="Title">
+              <div class="card-body text-center">
+                <h4 class="card-title text-mochiy text-yellow-50">Shehu Abdullahi</h4>
+                <p class="card-text text-manrope font-600 text-blue-50">Marketing and Official</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="card teams-card wow fadeIn" data-wow-duration="1800">
+              <img class="card-img-top othmem-img" src="img/naija-mine-2.jpg" alt="Title">
+              <div class="card-body text-center">
+                <h4 class="card-title text-mochiy text-yellow-50">Adamu Idris</h4>
+                <p class="card-text text-manrope font-600 text-blue-50">Accounting and Financial</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="card teams-card wow fadeIn" data-wow-duration="1800">
+              <img class="card-img-top othmem-img" src="img/naija-mine-3.jpg" alt="Title">
+              <div class="card-body text-center">
+                <h4 class="card-title text-mochiy text-yellow-50">Dung Dauda</h4>
+                <p class="card-text text-manrope font-600 text-blue-50">Project Supervisor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="card teams-card wow fadeIn" data-wow-duration="1800">
+              <img class="card-img-top othmem-img" src="img/naija-mine-4.jpg" alt="Title">
+              <div class="card-body text-center">
+                <h4 class="card-title text-mochiy text-yellow-50">Musa Daniru Hudu</h4>
+                <p class="card-text text-manrope font-600 text-blue-50">Public Relations</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contact-area mt-5">
+       <div class="row">
+
+        <div class="col-lg-6 g-0">
+          <div class="wow fadeIn" data-wow-duration="1800">
+            <img src="img/contact-miner.jpg" alt="" class="img img-responsive">
+            </div>
+        </div>
+
+        <div class="col-lg-6 g-0">
+           <div class="contact-bg wow fadeIn" data-wow-duration="1800">
+            <div class="mx-4">
+             <h2 class="text-center text-white text-poppins pt-3">Contact Us</h2>
+             <p class="text-center text-yellow-50 text-cookie">Send us a message today and we'll reply you shortly</p>
+
+             <form action="" method="post">
+              <div class="row">
+                <div class="col-md-6 form-group mt-2">
+                   <label for="name" class="form-label contact-label text-inter">Name</label>
+                   <input type="text" name="name" id="name" class="form-control contact-control text-manrope" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 form-group mt-2">
+                  <label for="email" class="form-label contact-label text-inter">Email</label>
+                  <input type="email" name="email" id="email" class="form-control contact-control text-manrope" placeholder="Your Email" required>
+               </div>
+
+               <div class="col-md-6 form-group mt-2">
+                <label for="topic" class="form-label contact-label text-inter">Subject</label>
+                <input type="text" name="topic" id="topic" class="form-control contact-control text-manrope" placeholder="Your Subject" required>
+             </div>
+
+             <div class="col-md-6 form-group mt-2">
+               <label for="phone" class="form-label contact-label text-inter">Phone Number</label>
+               <input type="tel" name="phone" id="phone" class="form-control contact-control text-manrope" placeholder="Your Phone Number" required>
+            </div>
+
+              <div class="col-md-12 form-group mt-2">
+                <label for="msg" class="form-label contact-label text-inter">Message</label>
+                <textarea name="msg" id="msg" cols="30" rows="5" class="form-control contact-control text-manrope" placeholder="Your Message" required></textarea>
+              </div>
+
+              <div class="col-md-12 form-group mt-3 mb-4">
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-contact py-2">Send <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                </div>
+              </div>
+
+              </div>
+             </form>
+            </div>
+           </div>
+        </div>
+
+       </div>
+    </section>
+
+
+    <section class="mt-5">
+      <div class="container">
+        <h1 class="text-center text-blue-50 text-bree wow bounceIn" data-wow-duration="1500"><b>Our Projects</b></h1>
+        <p class="text-center text-barlow font-500">Take a look at some illustrations of Projects handled by Timadix.</p>
+
+        <div class="my-slider">
+           <div class="slider-item" align="center">
+            <div class="slider-area">
+            <img src="img/timadix-banner.jpg" alt="" class="img img-slider">
+           </div>
+           </div>
+           <div class="slider-item">
+            <div class="slider-area">
+              <img src="img/tim-mine-banner1.jpg" alt="" class="img img-slider">
+             </div>
+           </div>
+           <div class="slider-item">
+            <div class="slider-area">
+              <img src="img/tims-project-1.jpg" alt="" class="img img-slider">
+             </div>
+           </div>
+           <div class="slider-item">
+            <div class="slider-area">
+              <img src="img/tims-project-2.jpg" alt="" class="img img-slider">
+             </div>
+           </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- <section class="mt-5">
       <div class="container">
          <h2 class="text-inter text-center text-uppercase wow fadeIn" data-wow-duration="1500">Contact Us</h2>
          <p class="text-center wow fadeIn" data-wow-duration="1600">Send us a message and we'll reply you shortly.</p>
@@ -300,7 +478,7 @@
 
          </div>
       </div>
-    </section>
+    </section> -->
 
     <br>
     <footer class="footer-area mt-5 pt-4">
@@ -368,7 +546,7 @@
     <script src="slick-js/jquery-migrate-1.2.1.min.js"></script>
     <script src="slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
 
-    <script>
+    <!-- <script>
 $('.home-banner').slick({
   dots: true,
   dotsClass: 'slider-dots',
@@ -380,6 +558,41 @@ $('.home-banner').slick({
   arrows: true,
   nextArrow: '<button class="carousel-arrow next inverted"><i class="fa fa-angle-right fa-3x text-white"></i></button>',
   prevArrow: '<button class="carousel-arrow prev inverted"><i class="fa fa-angle-left fa-3x text-white"></i></button>',
+});
+    </script> -->
+
+    <script>
+      $('.my-slider').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  dots: true,
+  dotsClass: 'myslider-dots',
+  autoplay:true,
+  autoplaySpeed:2000,
+  arrows: true,
+  nextArrow: '<button class="slider-arrow next inverted"><i class="fa fa-angle-right fa-2x text-white"></i></button>',
+  prevArrow: '<button class="slider-arrow prev inverted"><i class="fa fa-angle-left fa-2x text-white"></i></button>',
+  responsive: [
+    {
+      breakpoint: 800,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
 });
     </script>
 
@@ -420,6 +633,15 @@ $('.stats-area h4').addClass('animated fadeIn');
   $('#playvid').hide();
  });
     </script>
+
+        <!-- Preloader JS -->
+        <script src="js/modernizr.js"></script>
+        <script>
+          $(window).load(function() {
+            // Animate loader off screen
+            $(".se-pre-con").slideUp(700);
+          });
+        </script>
     
   </body>
 </html>

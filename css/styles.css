@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&family=Barlow:wght@400;500;600&family=Bree+Serif&family=Cookie&family=Inter:wght@400;500;600&family=Manrope:wght@400;500;600&family=Mochiy+Pop+One&family=Nunito:wght@400;500;600&family=Poppins:wght@400;500;600&family=Quicksand:wght@400;500;600&family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&family=Arima:wght@400;500;600;700&family=Barlow:wght@400;500;600&family=Bree+Serif&family=Cookie&family=Inter:wght@400;500;600&family=Manrope:wght@400;500;600&family=Mochiy+Pop+One&family=Nunito:wght@400;500;600&family=Poppins:wght@400;500;600&family=Quicksand:wght@400;500;600&family=Roboto+Condensed:wght@400;700&display=swap');
 
 html, body {
     max-width: 100%;
@@ -313,6 +313,10 @@ body p {
     font-family: 'Manrope', sans-serif;
   }
 
+  .text-arima {
+    font-family: 'Arima', cursive;
+  }
+
   .text-poppins {
     font-family: 'Poppins', sans-serif;
   }
@@ -356,7 +360,7 @@ body p {
   .welcome-area p {
     line-height: 1.9em;
     font-size: 17px;
-    font-family: 'Manrope', 'sans-serif';
+    font-family: 'Arima', cursive;
     text-shadow: 0.6px 0.6px 0.6px rgba(43, 52, 104, 0.937);
   }
 
@@ -368,6 +372,10 @@ body p {
 
   .img-responsive {
     width: 100%;
+  }
+
+  .img-contact {
+    height: 520px;
   }
 
   .btn-learn {
@@ -652,4 +660,21 @@ body p {
   
   #myBtn:hover {
     background-color: #1d36b6;
+  }
+
+  /* Other Pages Styles */
+
+  .other-banners {
+    background: linear-gradient(rgba(43, 49, 80, 0.904), rgba(43, 49, 82, 0.904)), url(../img/tims-oth-banners.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 250px;
+    padding-top: 80px;
+  }
+
+  .other-banners h1 {
+    font-size: 45px;
+  }
+  
+  .other-banners p a {
+    text-decoration: none;
   }

@@ -44,6 +44,7 @@
       .welcome-area h2 {
         font-size: 30px;
       }
+    
 }
 
 @media (max-width:992px) {
@@ -57,5 +58,9 @@
 
 .slider-item .slider-area .img-slider {
   height: 150px;
+}
+
+.img-contact {
+  height: auto !important;
 }
 }

@@ -678,3 +678,15 @@ body p {
   .other-banners p a {
     text-decoration: none;
   }
+
+  .other-banners p a:hover {
+    color: #f8ae24;
+  }
+
+  .manager-card {
+   border-radius: 5px;
+  }
+
+  .manager-card p {
+    font-size: 17px;
+   }

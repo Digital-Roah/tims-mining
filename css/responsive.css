@@ -44,6 +44,14 @@
       .welcome-area h2 {
         font-size: 30px;
       }
+
+      .other-banners h1 {
+        font-size: 40px;
+      }
+      
+      .other-banners p {
+        font-size: 15px;
+      }
     
 }
 

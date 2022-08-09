@@ -23,7 +23,9 @@ $('.nav-drop').hover(function() {
     $('.nav-drop .dropdown-content').slideToggle();
  });
 } else if($(window).width() <= 992) {
-  $('.nav-drop').click(function() {
+  $('.nav-drop .nav-link').css('width', '90%');
+  $('#service-drop').click(function() {
+    $(this).toggleClass("down");
     $('.nav-drop .dropdown-content').slideToggle();
  });
 }

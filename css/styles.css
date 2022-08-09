@@ -105,6 +105,29 @@ body p {
     border-bottom: 2px solid #08209a;
 }
 
+.nav-drop {
+  position: relative;
+}
+
+#service-drop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.rotate {
+  -moz-transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+.rotate.down {
+  -moz-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  transform:rotate(90deg);
+}
+
 .toggle-btn {
   color: #08209a;
   border: none;
@@ -688,5 +711,53 @@ body p {
   }
 
   .manager-card p {
-    font-size: 17px;
+    font-size: 16px;
    }
+
+  .service-content {
+    position: relative;
+    overflow: hidden;
+   }
+
+  .service-content .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8));
+  }
+
+  .service-content .overlay .service-text {
+    padding: 70px 30px 20px 30px;
+    font-family: 'Barlow', 'sans-serif';
+    font-weight: 600;
+    color: white;
+  }
+
+  .img-service {
+    width: 100%;
+    height: 250px;
+    transition: 0.5s all ease-in-out;
+  }
+
+  .service-content:hover .img-service {
+    transform: scale(1.2);
+}
+
+.service-content .overlay .service-text .explore {
+  opacity: 0;
+  background: #ffa401;
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.service-content:hover .overlay .service-text .explore {
+  opacity: 1;
+}

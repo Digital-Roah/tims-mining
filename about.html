@@ -69,12 +69,13 @@
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item dropdown nav-drop">
-                <a class="nav-link" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">Services <i class="fas fa-angle-down" aria-hidden="true"></i></a>
+                <a class="nav-link" href="services.html" id="dropdownId"
+                  aria-haspopup="true" aria-expanded="false">Services <i class="fas fa-angle-down d-none d-lg-inline-flex" aria-hidden="true"></i></a>
+                  <span class="fas fa-angle-right d-inline-flex d-lg-none text-end rotate" id="service-drop"></span>
                 <div class="dropdown-menu dropdown-content" aria-labelledby="dropdownId">
                   <a class="dropdown-item" href="#">Exploration Services</a>
                   <a class="dropdown-item" href="#">Mineral Trading  & Beneficiation</a>
-                  <a class="dropdown-item" href="#">Mineral Quality Conrol</a>
+                  <a class="dropdown-item" href="#">Mineral Quality Control</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -260,6 +261,63 @@
       </div>
     </section>
 
+    <section class="contact-area mt-5">
+      <div class="row">
+
+       <div class="col-lg-6 g-0">
+         <div class="wow fadeIn" data-wow-duration="1800">
+           <img src="img/contact-miner.jpg" alt="" class="img img-responsive img-contact">
+           </div>
+       </div>
+
+       <div class="col-lg-6 g-0">
+          <div class="contact-bg wow fadeIn" data-wow-duration="1800">
+           <div class="mx-4">
+            <h2 class="text-center text-white text-poppins pt-3">Contact Us</h2>
+            <p class="text-center text-yellow-50 text-cookie">Send us a message today and we'll reply you shortly</p>
+
+            <form action="" method="post">
+             <div class="row">
+               <div class="col-md-6 form-group mt-2">
+                  <label for="name" class="form-label contact-label text-inter">Name</label>
+                  <input type="text" name="name" id="name" class="form-control contact-control text-manrope" placeholder="Your Name" required>
+               </div>
+
+               <div class="col-md-6 form-group mt-2">
+                 <label for="email" class="form-label contact-label text-inter">Email</label>
+                 <input type="email" name="email" id="email" class="form-control contact-control text-manrope" placeholder="Your Email" required>
+              </div>
+
+              <div class="col-md-6 form-group mt-2">
+               <label for="topic" class="form-label contact-label text-inter">Subject</label>
+               <input type="text" name="topic" id="topic" class="form-control contact-control text-manrope" placeholder="Your Subject" required>
+            </div>
+
+            <div class="col-md-6 form-group mt-2">
+              <label for="phone" class="form-label contact-label text-inter">Phone Number</label>
+              <input type="tel" name="phone" id="phone" class="form-control contact-control text-manrope" placeholder="Your Phone Number" required>
+           </div>
+
+             <div class="col-md-12 form-group mt-2">
+               <label for="msg" class="form-label contact-label text-inter">Message</label>
+               <textarea name="msg" id="msg" cols="30" rows="5" class="form-control contact-control text-manrope" placeholder="Your Message" required></textarea>
+             </div>
+
+             <div class="col-md-12 form-group mt-3 mb-4">
+               <div class="d-grid">
+                 <button type="submit" class="btn btn-contact py-2">Send <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+               </div>
+             </div>
+
+             </div>
+            </form>
+           </div>
+          </div>
+       </div>
+
+      </div>
+   </section>
+
 
     <br>
     <footer class="footer-area mt-5 pt-4">
@@ -275,7 +333,7 @@
             <ul class="foot-list">
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="#un">Services</a></li>
+              <li><a href="services.html">Services</a></li>
               <li><a href="#un">Mining Consultancy</a></li>
               <li><a href="#un">Our Mine</a></li>
               <li><a href="#un">Contact</a></li>

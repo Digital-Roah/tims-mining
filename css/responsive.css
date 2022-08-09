@@ -52,6 +52,15 @@
       .other-banners p {
         font-size: 15px;
       }
+
+      .service-content .overlay .service-text {
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+
+      .service-content .overlay .service-text h3{
+         font-size: 25px;
+      }
     
 }
 

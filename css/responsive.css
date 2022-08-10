@@ -61,6 +61,14 @@
       .service-content .overlay .service-text h3{
          font-size: 25px;
       }
+
+      .img-service {
+        height: 220px;
+      }
+
+      .contact-det-area .contact-card {
+        height: auto;
+      }
     
 }
 

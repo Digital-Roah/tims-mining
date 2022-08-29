@@ -827,3 +827,7 @@ body p {
 .contact-det-area .contact-card a h5 {
  margin-top: 10px;
 }
+
+.consult-bg {
+  background: #e0e3f3 !important;
+}
